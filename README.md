@@ -15,13 +15,7 @@ Install all necessary packages from `wally`:
 wally install
 ```
 
-To build the place from scratch, use:
-
-```bash
-rojo build -o "project-name.rbxlx"
-```
-
-Next, open `project-name.rbxlx` in Roblox Studio and start the Rojo server:
+Start the Rojo server:
 
 ```bash
 rojo serve
@@ -36,3 +30,7 @@ Use `selene` and `stylua` for linting and style checking by running:
 ```bash
 selene src && stylua src
 ```
+
+## Saving place file changes
+
+You should **File->Download a Copy** from within Roblox Studio any time you make changes to the place file. The place file should be stored in the `places/` directory in the `.rbxl` binary format. This is because Rojo here is used to sync code/assets but not the entire Place/Workspace. 
