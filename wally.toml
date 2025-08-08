@@ -1,0 +1,11 @@
+[package]
+name = "tomglenn/project-name"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Cmdr = "evaera/cmdr@1.12.0"
+
+[server-dependencies]
+ProfileStore = "lm-loleris/profilestore@1.0.3"

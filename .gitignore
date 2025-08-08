@@ -1,0 +1,13 @@
+# Project place file
+/*.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Wally packages (generated)
+Packages/*
+!Packages/.gitkeep
+
+ServerPackages/*
+!ServerPackages/.gitkeep
