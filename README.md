@@ -9,6 +9,12 @@ Install all relevant tools (`rojo`, `wally`, `selene`, and `stylua`):
 rokit install
 ```
 
+Install all necessary packages from `wally`:
+
+```bash
+wally install
+```
+
 To build the place from scratch, use:
 
 ```bash
